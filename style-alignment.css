@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#gradient-welcome{
+    background-color: rgb(89, 0, 255); /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom, rgb(4, 205, 219), rgb(60, 3, 87));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  whitesmoke;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    text-align: center;
+    width: 1000px;
+    height: 200px;
+    border: 2px solid black;
+    margin-inline: auto;
+    margin-top: 20%;
+    box-shadow: 15px 15px 20px 2px rgba(0, 0, 0, 0.5);
+    text-shadow: 5px 5px rgba(0, 0, 0, 0.5);
+}
