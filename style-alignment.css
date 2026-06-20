@@ -8,6 +8,31 @@
     justify-content: center;
     align-items: center;
 }
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding-bottom: 3%;
+    background-color: rgb(92, 92, 219);
+    background-image: linear-gradient(to bottom right, rgb(2, 52, 65), rgb(55, 88, 197));
+}
+  a:link, a:visited{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(43, 107, 226);
+    background-image: linear-gradient(to bottom, rgb(55, 88, 197), rgb(2, 52, 65));
+    box-shadow: 15px 15px 20px 2px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+    padding: 14px 45px;
+    color: white;
+    font-size: 25px;
+    margin-top: 25px;
+    border: 2px solid black;
+    text-decoration: none;
+}
 #gradient-welcome{
     background-color: rgb(89, 0, 255); /* For browsers that do not support gradients */
     background-image: linear-gradient(to bottom, rgb(4, 205, 219), rgb(60, 3, 87));
@@ -22,7 +47,7 @@
     height: 200px;
     border: 2px solid black;
     margin-inline: auto;
-    margin-top: 20%;
+    margin-top: 5px;
     box-shadow: 15px 15px 20px 2px rgba(0, 0, 0, 0.5);
     text-shadow: 5px 5px rgba(0, 0, 0, 0.5);
 }
