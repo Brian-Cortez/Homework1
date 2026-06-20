@@ -101,6 +101,10 @@
   width: 2px;
   background-color: #ff9494; /* Pale red color */
 }
+video {
+  max-width: 100%;
+  height: auto;
+}
 * {
     margin: 0;
     padding: 0;
