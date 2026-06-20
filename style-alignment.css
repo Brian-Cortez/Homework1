@@ -8,14 +8,14 @@
     justify-content: center;
     align-items: center;
 }
-.nav{
+.nav-page{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 25px;
+    gap: 50px;
     padding-bottom: 3%;
     background-color: rgb(92, 92, 219);
-    background-image: linear-gradient(to bottom right, rgb(2, 52, 65), rgb(55, 88, 197));
+    background-image: linear-gradient(to bottom right, rgb(4, 48, 59), rgb(1, 6, 20));
 }
   a:link, a:visited{
     display: flex;
@@ -32,6 +32,7 @@
     margin-top: 25px;
     border: 2px solid black;
     text-decoration: none;
+    font-family: Chelsea Market;
 }
 #gradient-welcome{
     background-color: rgb(89, 0, 255); /* For browsers that do not support gradients */
@@ -41,13 +42,20 @@
     align-items: center;
     color:  whitesmoke;
     font-size: 30px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-family: Chelsea Market;
     text-align: center;
     width: 1000px;
     height: 200px;
     border: 2px solid black;
     margin-inline: auto;
-    margin-top: 5px;
+    margin-top: 20px;
     box-shadow: 15px 15px 20px 2px rgba(0, 0, 0, 0.5);
     text-shadow: 5px 5px rgba(0, 0, 0, 0.5);
+} 
+body {
+    background-color: rgb(232, 233, 235);
+    background-image: linear-gradient(to bottom right, rgb(7, 84, 104), rgb(1, 6, 20));
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
