@@ -3,11 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .nav-page{
     display: flex;
     justify-content: center;
@@ -52,6 +47,73 @@
     box-shadow: 15px 15px 20px 2px rgba(0, 0, 0, 0.5);
     text-shadow: 5px 5px rgba(0, 0, 0, 0.5);
 } 
+.note-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+    margin-top: 50px;
+    font-size: 25px;
+    width: 600px;
+    text-align: center;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    box-shadow: 15px 15px 20px 2px rgba(0, 0, 0, 0.5);
+    line-height: 1.3;
+    padding-left: 50px;
+    padding-right: 10px;
+    position: relative;
+    overflow: auto;
+    font-family: Chelsea Market;
+    /* Blue horizontal lines */
+    background-image: linear-gradient(#9ad0ec 1px, transparent 1px);
+    background-size: 100% 2rem; /* Sets line spacing height */
+}
+
+/*This adds the repeating red lines */
+.note-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 40px; /* Distance from the left edge */
+  height: 100%;
+  width: 2px;
+  background-color: #ff9494; /* Pale red color */
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.note-card-list{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+    margin-top: 50px;
+    font-size: 25px;
+    width: 600px;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    box-shadow: 15px 15px 20px 2px rgba(0, 0, 0, 0.5);
+    line-height: 1.3;
+    padding-left: 50px;
+    padding-right: 10px;
+    position: relative;
+    overflow: auto;
+    font-family: Chelsea Market;
+    /* Blue horizontal lines */
+    background-image: linear-gradient(#9ad0ec 1px, transparent 1px);
+    background-size: 100% 2rem; /* Sets line spacing height */
+}
+.note-card-list::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 40px; /* Distance from the left edge */
+  height: 100%;
+  width: 2px;
+  background-color: #ff9494; /* Pale red color */
+}
 body {
     background-color: rgb(232, 233, 235);
     background-image: linear-gradient(to bottom right, rgb(7, 84, 104), rgb(1, 6, 20));
@@ -59,3 +121,4 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
