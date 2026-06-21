@@ -1,22 +1,196 @@
-<!DOCTYPE html>
-<html lang = "en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Home - Brian's Portfolio</title>
-        <link  rel="stylesheet" href="style-alignment.css">
-        <link href="https://db.onlinewebfonts.com/c/6a68b60849ffa77901917d0f417c39de?family=Chelsea+Market" rel="stylesheet" type="text/css"/>
-    </head>
 
-    <body>
-        <Header class="navigation-bar">
-            <nav>
-                <div class="nav-page">
-                    <a href="index.html">Home</a>
-                    <a href="projects.html">Projects</a>
-                    <a href="about.html">About Me</a>
-                </div>
-            </nav>
-        </Header>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Projects - Brian's Portfolio</title>
+
+    <!--
+    <link rel="stylesheet" href="style-alignment.css">
+    -->
+    <link
+        href="https://db.onlinewebfonts.com/c/6a68b60849ffa77901917d0f417c39de?family=Chelsea+Market"
+        rel="stylesheet"
+        type="text/css"
+    >
+    
+</head>
+
+<body>
+    <header class="navigation-bar">
+        <nav>
+            <div class="nav-page">
+                <a href="index.html">| Home |</a>
+                <a href="projects.html">| Projects |</a>
+                <a href="about.html">| About Me |</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Introduction Content -->
+        <section class="note-card">
+            <h1>Projects</h1>
+
+            <p>
+                I have worked on several game development projects that have
+                helped me improve my programming and design skills. My projects
+                include a multiplayer air hockey game, a virtual reality stealth
+                horror game, and a restaurant simulation game. Through these
+                projects, I have gained experience with Unity, C#, artificial
+                intelligence, multiplayer networking, user interface development,
+                debugging, and gameplay system design.
+            </p>
+        </section>
+
+        <!-- Air Hockey Project -->
+        <article class="note-card">
+            <h2>Multiplayer Air Hockey</h2>
+
+            <img
+                src="images/hockey-multiplayer.png"
+                alt="Gameplay screenshot of my multiplayer air hockey game"
+                width="500"
+            >
+
+            <p>
+                Multiplayer Air Hockey is a Unity game in which two players
+                compete by controlling paddles and attempting to hit a
+                physics-based puck into the opposing goal. I developed the
+                player movement, scoring system, puck behavior, user interface,
+                and match-reset system.
+            </p>
+
+            <p>
+                I also worked with Unity Netcode to create server-authoritative
+                multiplayer movement and synchronize information between
+                connected players. This project helped me improve my skills in
+                Unity physics, networking, remote procedure calls, debugging,
+                and multiplayer game development.
+            </p>
+
+            <a
+                href="https://github.com/Ryuality/Hockey-Multiplayer"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                View Project on GitHub
+            </a>
+        </article>
+
+        <!-- VR Horror Project -->
+        <article class="note-card">
+            <h2>VR Stealth Horror Game</h2>
+
+            <img
+                src="images/fishermans-curse.png"
+                alt="Gameplay screenshot of my VR stealth horror game"
+                width="500"
+            >
+
+            <p>
+                My VR stealth horror project features a fisherman enemy that can
+                wander around the environment, detect the player, chase them,
+                and attack when they are close enough. I created the enemy's
+                behavior states, detection system, traps, movement, and attack
+                mechanics.
+            </p>
+
+            <p>
+                The project also includes player sprinting, crouching, virtual
+                reality movement, and immersive sound effects. Working on this
+                game strengthened my understanding of artificial intelligence,
+                state-based programming, navigation, player interaction, and
+                the Unity XR Interaction Toolkit.
+            </p>
+
+            <a
+                href="https://github.com/Ryuality/Fisherman-s-Curse"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                View Project on GitHub
+            </a>
+        </article>
+
+        <!-- Restaurant Simulator Project -->
+        <article class="note-card">
+            <h2>Restaurant Simulation Game</h2>
+
+            <img
+                src="images/Tavern_Outside.png"
+                alt="Gameplay screenshot of my restaurant simulation game"
+                width="500"
+            >
+
+            <p>
+                The Restaurant Simulation Game allows players to prepare food
+                and serve NPC customers. Customers enter the restaurant, place
+                orders, wait for service, sit at tables, eat their meals, and
+                leave after they finish.
+            </p>
+
+            <p>
+                I developed the customer AI states, food-ordering system,
+                cooking minigames, ticket queue interface, object-pooling
+                system, and save-and-load features. This project gave me
+                experience with event-driven programming, data management,
+                navigation, user interfaces, and connecting multiple gameplay
+                systems together.
+            </p>
+
+            <a
+                href="https://github.com/Tr4shMou5e/TavernGame"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                View Project on GitHub
+            </a>
+        </article>
+
+        <!-- Contact Section -->
+        <section class="note-card">
+            <h2>Connect With Me</h2>
+
+            <p>
+                You can contact me by email or visit my professional and social
+                profiles using the links below.
+            </p>
+
+            <ul>
+                <li>
+                    <a href="mailto:briancortezreyes.com">
+                        Email Me
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                        href="https://github.com/Brian-Cortez"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        GitHub
+                    </a>
+                </li>
+
+                <li>
+                    <a
+                        href="https://linkedin.com/in/brian-cortez-reyes-2067a435b"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        LinkedIn
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Brian Cortez-Reyes</p>
+    </footer>
+</body>
 </html>
