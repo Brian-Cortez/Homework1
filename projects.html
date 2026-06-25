@@ -7,9 +7,9 @@
 
     <title>Projects - Brian's Portfolio</title>
 
-    <!--
     <link rel="stylesheet" href="style-alignment.css">
-    -->
+    <link rel="stylesheet" href="style-about-me.css">
+
     <link
         href="https://db.onlinewebfonts.com/c/6a68b60849ffa77901917d0f417c39de?family=Chelsea+Market"
         rel="stylesheet"
@@ -22,16 +22,16 @@
     <header class="navigation-bar">
         <nav>
             <div class="nav-page">
-                <a href="index.html">| Home |</a>
-                <a href="projects.html">| Projects |</a>
-                <a href="about.html">| About Me |</a>
+                <a href="index.html">Home</a>
+                <a href="projects.html">Projects</a>
+                <a href="about.html">About Me</a>
             </div>
         </nav>
     </header>
 
     <main>
         <!-- Introduction Content -->
-        <section class="note-card">
+        <section class="note-card-list">
             <h1>Projects</h1>
 
             <p>
@@ -46,15 +46,13 @@
         </section>
 
         <!-- Air Hockey Project -->
-        <article class="note-card">
+        <article class="note-card-list">
             <h2>Multiplayer Air Hockey</h2>
-
-            <img
+            <img    
+                class="hockey-img"
                 src="Images/hockey-multiplayer.png"
                 alt="Gameplay screenshot of my multiplayer air hockey game"
-                width="500"
             >
-
             <p>
                 Multiplayer Air Hockey is a Unity game in which two players
                 compete by controlling paddles and attempting to hit a
@@ -79,12 +77,13 @@
                 View Project on GitHub
             </a>
         </article>
-
+        
         <!-- VR Horror Project -->
-        <article class="note-card">
+        <article class="note-card-list">
             <h2>VR Stealth Horror Game</h2>
 
             <img
+                class="hockey-img"
                 src="Images/fishermans-curse.png"
                 alt="Gameplay screenshot of my VR stealth horror game"
                 width="500"
@@ -116,10 +115,11 @@
         </article>
 
         <!-- Restaurant Simulator Project -->
-        <article class="note-card">
+        <article class="note-card-list">
             <h2>Restaurant Simulation Game</h2>
 
             <img
+                class="hockey-img"
                 src="Images/Tavern_Outside.png"
                 alt="Gameplay screenshot of my restaurant simulation game"
                 width="500"
@@ -150,8 +150,55 @@
             </a>
         </article>
 
+        <section class="note-card-list" id="project-details">
+            <div class="header-position">
+                    <h2>Assignment Details</h2>
+                </div>
+            <table>
+                <caption>
+                        Course Work Assignments Progress
+                    </caption>
+                <thead>
+                        <tr>
+                            <th scope="col">Course</th>
+                            <th scope="col">Assignment</th>
+                            <th scope="col">Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Web Development</th>
+                            <td>Homework 1</td>
+                            <td>In-progress</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">Web Developement</th>
+                            <td>Homework 2</td>
+                            <td>Complete</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Web Developement</th>
+                            <td>In class work 1</td>
+                            <td>Complete</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Web Developement</th>
+                            <td>In class work 2</td>
+                            <td>Complete</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Web Developement</th>
+                            <td>Outside class work 1</td>
+                            <td>Complete</td>
+                        </tr>
+                    </tbody>
+            </table>
+
+        </section>
+
         <!-- Contact Section -->
-        <section class="note-card">
+        <section class="note-card-list">
             <h2>Connect With Me</h2>
 
             <p>

@@ -7,10 +7,8 @@
 
     <title>About Me - Brian's Portfolio</title>
 
-    <!--
     <link rel="stylesheet" href="style-alignment.css">
     <link rel="stylesheet" href="style-about-me.css">
-    -->
 
     <link
         href="https://db.onlinewebfonts.com/c/6a68b60849ffa77901917d0f417c39de?family=Chelsea+Market"
@@ -71,12 +69,9 @@
                     </a>
                 </div>
 
-                <a href="index.html">| Home |</a>
-                <a href="projects.html">| Projects |</a>
-                <a href="about.html">| About Me |</a>
-                <a href="#about-me">| Jump to About Me |</a>
-                <a href="#project-details">| Jump to Project Details |</a>
-                <a href="#bottom">| Jump to Bottom |</a>
+                <a href="index.html">Home</a>
+                <a href="projects.html">Projects</a>
+                <a href="about.html">About Me</a>
             </div>
         </nav>
     </header>
@@ -88,8 +83,8 @@
 
         <!-- About Me content -->
         <section class="about-me-description">
-            <div class="note-card">
-                <img src="Images/Me.png" alt="This is what I look like" width="300px">
+            <div class="note-card-list">
+                <img class="hockey-img" src="Images/Me.png" alt="This is what I look like">
                 <p>
                     Hi there,
                 </p>
@@ -182,7 +177,7 @@
             </div>
 
             <!-- Project details content -->
-            <section class="project-details" id="project-details">
+            <section class="note-card-list" id="project-details">
                 <div class="header-position">
                     <h2>Project Details</h2>
                 </div>
@@ -278,26 +273,33 @@
                         </tr>
                     </tbody>
                 </table>
-                <img
-                    src="Images/Tavern.png"
-                    alt="Gameplay screenshot of the outside of the tavern building"
-                    width="500"
-                >
-                <img
-                src="Images/tavern_inside.png"
-                alt="Gameplay screenshot of the inside of the customer section of the tavern"
-                width="500"
-            >
-            <img
-                src="Images/tavern_kitchen.png"
-                alt="Gameplay screenshot of the kitchen that is inside the tavern"
-                width="500"
-            >
+                
             </section>
         </section>
+        <div class="note-card-lists">
+            <div class="hockey-img">
 
+                <img
+                class="hockey-img"
+                    src="Images/Tavern.png"
+                    alt="Gameplay screenshot of the outside of the tavern building"
+                >
+                <img
+                class="hockey-img"
+                src="Images/tavern_inside.png"
+                alt="Gameplay screenshot of the inside of the customer section of the tavern"
+            >
+            <img
+            class="hockey-img"
+                src="Images/tavern_kitchen.png"
+                alt="Gameplay screenshot of the kitchen that is inside the tavern"
+            >
+            </div>
+            
+        </div>
+        
         <!-- Quote content -->
-        <section class="inspirational-quote" id="bottom">
+        <section class="note-card-list" id="bottom">
             <h2>Inspirational Quote</h2>
 
             <blockquote

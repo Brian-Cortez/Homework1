@@ -36,9 +36,10 @@
     height: 200px;
     margin-inline: auto;
     margin-top: 20px;
+    float: left;
     position: absolute;
     top:-90px;
-    right:1100px;
+    right:800px;
     height: 950px;
 }
 .note-card{
@@ -112,8 +113,9 @@
     color: whitesmoke;
     font-size: 25px;
     position: absolute;
+    float: right;
     top: 390px;
-    left: 1400px;
+    left: 1100px;
 }
 .recent-project-pictures{
     display: flex;
@@ -133,6 +135,7 @@ video {
   max-width: 100%;
   height: auto;
   position: absolute;
+  float: left;
   left: 300px;
   top: 500px;
 }
@@ -176,5 +179,13 @@ a:link, a:visited{
 ul{
     margin: 0;
     padding: 0;
+}
+.hockey-img{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
 }
 
